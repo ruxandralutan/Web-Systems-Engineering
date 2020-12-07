@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Forum.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<table class="table">
+   <tr>
+       <td>
+           <h1>Posts</h1>
+       </td>
+       <td>
+           <h2>
+           <div align="right">
+               <form asp-controller="Posts" asp-action="Search" method="get" accept-charset="utf-8">
+                   <input type="text" name="SearchString" placeholder="Search">
+               </form>
+           </div>
+           </h2>
+
+       </td>
+   </tr>
+</table>
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+
+
+
+    @foreach (var item in Model.Reverse())
+    {
+        <div class="well">
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading"><a asp-action="Details" asp-route-id="@item.PostId">@Html.DisplayFor(modelItem => item.Title) </a></h4>
+                    <a asp-controller="ApplicationUser" asp-action="Details" asp-route-id="@item.User.Id"><p class="text-right">@Html.DisplayFor(modelItem => item.User.name)</p></a>
+                    <p>@Html.DisplayFor(modelItem => item.Content) </p>
+                    <ul class="list-inline list-unstyled">
+                        <li><span><i class="glyphicon glyphicon-calendar"></i> @Html.DisplayFor(modelItem => item.CreatedOn) </span></li>
+                        <li>|</li>
+
+                        <span>
+                            <i class="glyphicon glyphicon-comment"></i>
+                            <a asp-action="Details" asp-route-id="@item.PostId" class="btn btn-light">@item.Comments.Count<Comment></a>
+                        </span>
+
+                        <li>|</li>
+                        <li>
+                            <a asp-action="Details" asp-route-id="@item.PostId" class="btn btn-light">Details</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+
+

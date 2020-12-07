@@ -1,0 +1,87 @@
+﻿@model Forum.Models.Post
+@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Details";
+}
+<br />
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<div class="well">
+    <div class="media">
+        <div class="media-body">
+            <h4 class="media-heading">@Html.DisplayFor(model => model.Title)</h4>
+            <a asp-controller="ApplicationUser" asp-action="Details" asp-route-id="@Model.User.Id"><p class="text-right">@Html.DisplayFor(model => model.User.name)</p></a>
+            <p>@Html.DisplayFor(model => model.Content) </p>
+            <ul class="list-inline list-unstyled">
+                <li><span><i class="glyphicon glyphicon-calendar"></i> @Html.DisplayFor(model => model.CreatedOn) </span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+@if (User.IsInRole("Admin") || @UserManager.GetUserName(User) == Model.User.UserName)
+{
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.PostId" class="btn btn-warning">Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.PostId" class=" btn btn-danger">Delete</a>
+    </div>
+}
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>
+        <br />
+        Write a comment:
+    </p>
+
+    <form asp-action="Create" asp-controller="Comments" asp-route-postId="@Model.PostId">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <input type="text" value="" asp-for="Content" class="form-control" />
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Write comment" class="btn btn-primary" />
+        </div>
+
+    </form>
+}
+
+<div>
+    <i class="glyphicon glyphicon-comment"></i>
+    Comments (@Model.Comments.Count<Comment>)
+</div>
+
+@foreach (var item in Model.Comments.Reverse())
+{
+<div class="row">
+    <div class="col-sm-1">
+        <div class="thumbnail">
+            <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+        </div><!-- /thumbnail -->
+    </div><!-- /col-sm-1 -->
+    <div class="col-sm-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong>@Html.DisplayFor(modelItem => item.User.name)</strong> <span class="text-muted">@Html.DisplayFor(modelItem => item.CreatedOn)</span>
+            </div>
+            <div class="panel-body">
+                @Html.DisplayFor(modelItem => item.Content)
+            </div><!-- /panel-body -->
+            @if (User.IsInRole("Admin") || @UserManager.GetUserName(User) == Model.User.UserName || @UserManager.GetUserName(User) == item.User.UserName)
+            {
+            <div>
+                <a asp-controller="Comments" asp-action="Delete" asp-route-id="@item.CommentId" asp-route-postId="@Model.PostId"class=" btn btn-danger">Delete</a>
+            </div>
+            }
+        </div><!-- /panel panel-default -->
+    </div><!-- /col-sm-5 -->
+
+</div><!-- /panel panel-default -->
+}
+

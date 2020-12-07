@@ -1,0 +1,65 @@
+﻿@model Forum.Models.ApplicationUser
+@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+
+
+<div>
+    <h4><b>@Html.DisplayFor(model => model.name)</b></h4>
+    <hr />
+    <table border-spacing="50px 0">
+        <tr>
+            <td>
+                <img src="~/images/user.png" alt="User image" style="width:300px;height:300px;border:0;" />
+            </td>
+
+            <td style="margin: 10px; padding: 50px;">
+                <table>
+                    <tr>
+                        <td><b>@Html.DisplayNameFor(model => model.FirstName)</b></td>
+                        <td>@Html.DisplayFor(model => model.FirstName)</td>
+                    </tr>
+                    <tr>
+                        <td><b>@Html.DisplayNameFor(model => model.LastName)</b></td>
+                        <td>@Html.DisplayFor(model => model.LastName)</td>
+                    </tr>
+                    <tr>
+                        <td><b>@Html.DisplayNameFor(model => model.Address)</b></td>
+                        <td> @Html.DisplayFor(model => model.Address)</td>
+                    </tr>
+                    <tr>
+                        <td><b>@Html.DisplayNameFor(model => model.City)</b></td>
+                        <td> @Html.DisplayFor(model => model.City)</td>
+                    </tr>
+                    <tr>
+                        <td><b> @Html.DisplayNameFor(model => model.PhoneNumber)</b></td>
+                        <td> @Html.DisplayFor(model => model.PhoneNumber)</td>
+                    </tr>
+                    <tr>
+                        <td><b>@Html.DisplayNameFor(model => model.Email)</b></td>
+                        <td> @Html.DisplayFor(model => model.Email)</td>
+                    </tr>
+                    <tr>
+                        <td><b>@Html.DisplayNameFor(model => model.CreatedOn)</b></td>
+                        <td> @Html.DisplayFor(model => model.CreatedOn)</td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+    </table>
+</div>
+@if (@UserManager.GetUserName(User) == Model.UserName)
+{
+    <div align="center">
+        <a asp-action="Edit" class="btn btn-warning">Edit Profile</a>
+ </div>
+}

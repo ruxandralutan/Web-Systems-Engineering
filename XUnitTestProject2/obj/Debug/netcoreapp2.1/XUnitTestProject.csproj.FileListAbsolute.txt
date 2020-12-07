@@ -1,0 +1,38 @@
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.Views.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.Views.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.deps.json
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.runtimeconfig.json
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.runtimeconfig.dev.json
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.csprojAssemblyReference.cache
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.csproj.CoreCompileInputs.cache
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.AssemblyInfoInputs.cache
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.AssemblyInfo.cs
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.csproj.CopyComplete
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum - Copy (2)\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.Views.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.Views.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.deps.json
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.runtimeconfig.json
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.runtimeconfig.dev.json
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\XUnitTestProject.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\bin\Debug\netcoreapp2.1\Forum.pdb
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.csprojAssemblyReference.cache
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.csproj.CoreCompileInputs.cache
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.AssemblyInfoInputs.cache
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.AssemblyInfo.cs
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.csproj.CopyComplete
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.dll
+D:\Facultate\Master\Anul1Sem1\WSE - Web System Engineering\Teme\Tema2 - proiect\NumiForum_unitTest\XUnitTestProject2\obj\Debug\netcoreapp2.1\XUnitTestProject.pdb

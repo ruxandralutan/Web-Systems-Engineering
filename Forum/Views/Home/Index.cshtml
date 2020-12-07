@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <img src="~/images/home.jpg" alt="Image for presentation" style="width:1200px;height:400px;border:0;" />
+    <br />
+    <br />
+</div>
+
+<p align="center">
+    <a asp-controller="Posts" asp-action="Index" class="btn btn-warning" text-align="center">View all posts</a>
+</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2><a asp-controller="Home" asp-action="About">What is NumiForum?</a></h2>
+        <ul>
+            <li>NumiForum is a wonderful space to share with other coin enthusiasts.</li>
+            <li>NumiForum connects you with other collectors. </li>
+            <li>View and update your collection list from any place, any time with NumiForum</li>
+
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2><a asp-area="Identity" asp-page="/Account/Register">How to use NumiForum?</a></h2>
+        <ul>
+            <li>Create an account</li>
+            <li>View other people posts</li>
+            <li>Interract with other users</li>
+            <li>Find people who have the same passion</li>
+            <li>Find numismatic objects for exchange</li>
+            <li>Grow your collection</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Check also</h2>
+        <ul>
+            <li><a href="https://www.allnumis.ro/">Alluminis - Ghidul tau numismatic</a></li>
+            <li><a href="http://romaniancoins.org/">Romanian coins - Huge and most complete numismatic site on Romanian coins</a></li>
+            <li><a href="https://en.numista.com/">Numista</a></li>
+            <li><a href="http://bancnote.net/">Bancnote.net</a></li>
+        </ul>
+    </div>
+
+
+
+</div>
